@@ -193,6 +193,7 @@ jobs:
 
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
+          cat .config
 
       - name: Make download
         run: |
